@@ -1,8 +1,9 @@
 syntax = "proto3";
 
-package example.enumerations;
+package exmple.enumerations;
 
-option go_package = "enumpb";
+//no space in ""
+option go_package = "enum_example;enumpb";
 
 message EnumMessage {
   int32 id = 1;
